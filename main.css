@@ -1,0 +1,97 @@
+nav {
+    background: rgb(105, 216, 216);
+
+}
+ul {
+    list-style: none;
+}
+
+ul li {
+    display: inline;
+}
+
+header{
+    height: 200px;
+    background-color: rgb(42, 109, 196);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    float:left;
+    width: 10%;
+    padding: 2px;
+  }
+  
+  /* Clear floats after image containers */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+header h1 {
+    color: rgb(199, 218, 219);
+}
+
+article h2 {
+    background-color: rgb(42, 109, 196);
+}
+
+article h2 {
+    color: rgb(199, 218, 219);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+article ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body {margin:25px;}
+            
+div.polaroid {
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 2px 5px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+}
+            
+div.container {
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+  }
+
+/*.specialText {
+    color: rgb(80, 98, 255);
+}
+
+table tbody tr:first-child {
+    font-size: 30px;
+}
+
+#DogAdoptionDates {
+    font-size: 35px;
+}
+
+.AdoptionDates {
+    background-color: turquoise;
+
+}
+
+.LoremIpsum {
+    background-color: tomato;
+}*/
